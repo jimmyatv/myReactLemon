@@ -1,0 +1,37 @@
+.logoImg {
+    width: 200px;
+}
+
+.topMenu {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.navBar {
+    padding: 15px 10px;
+    border-top: 1px solid var(--secondary) ;
+}
+
+.navBar>img {
+    width: 200px;
+    display: none;
+}
+
+.navBarMenu {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    list-style-type: none;
+}
+
+.navBarMenu a {
+    text-decoration: none;
+    color: var(--secondary);
+    transition: var(--transition);
+}
+
+.navBarMenu a:hover {
+    cursor: pointer;
+    color: var(--primary);
+}
