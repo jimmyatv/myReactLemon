@@ -8,11 +8,6 @@
     padding: 10px 0;
 }
 
-.navBar {
-    padding: 15px 10px;
-    border-top: 1px solid var(--secondary) ;
-}
-
 .navBar>img {
     width: 200px;
     display: none;
@@ -34,4 +29,28 @@
 .navBarMenu a:hover {
     cursor: pointer;
     color: var(--primary);
+}
+
+.header-photo {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.header-photo h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    margin-bottom: 35px;
+}
+
+.partners {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FAF9F5;
+}
+
+.partners>div {
+    padding: 42px 0;
 }

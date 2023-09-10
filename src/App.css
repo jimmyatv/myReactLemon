@@ -33,6 +33,10 @@ body {
   color: var(--text-color);
 }
 
+img {
+  max-width: 100%;
+}
+
 h1 {
   color: var(--light);
 }
@@ -41,6 +45,21 @@ h2, h3, h4, h5, h6 {
   font-family: var(--main-font);
   color: var(--secondary);
 }
+/* CLASSES */
+.my-btn {
+  padding: 16px 87px;
+  background-color: var(--primary);
+  color: var(--secondary);
+  border: 2px solid var(--primary);
+  transition: var(--transition);
+  text-transform: uppercase;
+  font-weight: bold;
+}
 
+.my-btn:hover {
+  cursor: pointer;
+  background: transparent;
+  color: var(--light);
+}
 
 
