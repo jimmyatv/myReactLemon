@@ -1,0 +1,20 @@
+.cards>div {
+    width: 31%;
+}
+.cards>div:nth-child(odd) {
+    background-color: var(--card-bcgr);
+    transition: var(--transition);
+}
+
+.cards>div:nth-child(odd):hover {
+    background-color: var(--text-color2);
+    cursor: pointer;
+}
+
+.cards>div:nth-of-type(2) {
+    background-color: var(--primary);
+    transition: var(--transition);
+}
+.cards>div:nth-of-type(2):hover {
+    background-color: var(--text-color2);
+}
