@@ -1,8 +1,10 @@
 import './App.css';
 import AboutUs from './components/AboutUs/AboutUs';
+import Cards from './components/Cards/Cards';
 import Header from './components/Header/Header';
 import OurMission from './components/OurMission/OurMission';
 import Success from './components/Success/Success';
+import Testemonials from './components/Testemonials/Testemonials';
 import Villas from './components/Villas/Villas';
 
 const App = () => {
@@ -13,6 +15,8 @@ const App = () => {
       <OurMission />
       <Success />
       <Villas />
+      <Cards />
+      <Testemonials />
     </div>
   );
 }

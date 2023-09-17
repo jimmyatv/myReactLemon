@@ -1,0 +1,39 @@
+.cards-blog {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:20px;
+}
+
+.card-body {
+    background-color: #FAF9F5;
+}
+
+.card-body>a {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: var(--dark);
+    transition: var(--transition);
+}
+
+.card-body>a:hover {
+    color: var(--primary);
+}
+
+.card-title {
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.card-date {
+    color: var(--text-color);
+    margin: 0;
+}
