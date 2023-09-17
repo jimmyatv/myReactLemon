@@ -1,0 +1,32 @@
+.success-des {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+.success-des>img {
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+}
+.success-des>div {
+    height: 600px;
+    width: 400px;
+}
+
+.success-img {
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+.success-img>img {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}

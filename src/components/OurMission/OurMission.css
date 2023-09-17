@@ -1,0 +1,31 @@
+.om-des {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+.om-des>img {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+}
+.om-des>div {
+    height: 600px;
+    width: 400px;
+}
+
+.om-img {
+    position: relative;
+    z-index: 2;
+}
+.om-img>img {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
